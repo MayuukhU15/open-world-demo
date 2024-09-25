@@ -32,7 +32,7 @@
         afterimagePass.uniforms['damp'].value = 0.1;
         composer.addPass(afterimagePass);
         const cubes = [];
-        for (let i = 0; i < 250; i++) {
+        for (let i = 0; i < 100; i++) {
             const cubeGeometry = new THREE.BoxGeometry(5, 5, 5);
             const cubeMaterial = new THREE.MeshBasicMaterial({
                 color: 0xff0000
